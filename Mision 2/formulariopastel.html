@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedido</title>
+</head>
+<body>
+    <h1>Realiza tu pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Escribe tu nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="Correo">Escribe tu correo (Se usará para enviarte el recibo de pago)</label><br>
+        <input type="email" id="Correo" name="Correo" placeholder="Correo">
+
+        <br><br>
+
+        <label for="Telefono">Escribe tu numero telefonico</label><br>
+        <input type="tel" id="Numero" name="Numero" placeholder="Numero">
+
+        <br><br>
+
+        <label for="Descripcion">Describe los detalles que quieres que tenga tu pastel</label><br>
+        <input type="text" name="Descripcion" id="Descripcion" placeholder="Descripción">
+
+        <br><br>
+
+        <p>Elige tu sabor de pastel</p>
+        <input type="radio" name="Sabores" id="sabor1" value="Chocolate con Espuma de Nutella">
+        <label for="sabor1">Chocolate con Espuma de Nutella</label><br>
+        <input type="radio" name="Sabores" id="sabor2" value="Vainilla">
+        <label for="sabor2">Vainilla</label><br>
+        <input type="radio" name="Sabores" id="sabor3" value="Frutos Rojos">
+        <label for="sabor3">Frutos Rojos</label><br>
+        <input type="radio" name="Sabores" id="sabor4" value="Milky Way">
+        <label for="sabor4">Milky Way</label><br>
+        <input type="radio" name="Sabores" id="sabor5" value="Mont Blanc">
+        <label for="sabor5">Mont Blanc</label><br>
+        <input type="radio" name="Sabores" id="sabor6" value="Trufa">
+        <label for="sabor6">Trufa</label><br>
+        <input type="radio" name="Sabores" id="sabor7" value="Expresso">
+        <label for="sabor7">Expresso</label><br>
+        <input type="radio" name="Sabores" id="sabor8" value="Snickers">
+        <label for="sabor8">Snickers</label><br>
+        <input type="radio" name="Sabores" id="sabor9" value="Zebra">
+        <label for="sabor9">Zebra</label><br>
+        <input type="radio" name="Sabores" id="sabor10" value="Vainilla con Dulce de Leche">
+        <label for="sabor10">Vainilla con Dulce de Leche</label><br>
+        <input type="radio" name="Sabores" id="sabor11" value="Pastel de Ceremonia">
+        <label for="sabor11">Pastel de Ceremonia</label><br>
+
+        <br>
+        <p>Elige tu(s) adorno(s)</p>
+        <input type="checkbox" id="Adornos1" name="Adornos" value="Velas individuales">
+        <label for="Adornos1">Paquete de Velas</label><br>
+        <input type="checkbox" id="Adornos2" name="Adornos" value="Mini cartel 'Feliz Cumpleaños'">
+        <label for="Adornos2">Mini cartel "Feliz Cumpleaños"</label><br>
+        <input type="checkbox" id="Adornos3" name="Adornos" value="Vela Bengala">
+        <label for="Adornos3">Vela Bengala</label><br>
+        <input type="checkbox" id="Adornos4" name="Adornos" value="Mini-globos 'Feliz Cumpleaños'">
+        <label for="Adornos4">Mini-globos "Feliz Cumpleaños"</label><br>
+        <input type="checkbox" id="Adornos5" name="Adornos" value="Adorno de bodas (Pedido con anticipación)">
+        <label for="Adornos5">Adorno de bodas (Pedido con anticipación)</label><br>
+        
+        <br>
+        <input type="reset" value="Reestablecer">
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
